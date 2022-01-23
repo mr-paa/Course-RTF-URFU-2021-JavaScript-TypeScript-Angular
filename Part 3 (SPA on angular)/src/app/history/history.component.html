@@ -1,0 +1,8 @@
+<div class='main_container' (DOMContentLoaded)='ngOnInit()'>
+    <h4>История запросов (по порядку):</h4>
+
+    <p *ngFor="let item of mass"> <img *ngIf="mass != undefined" src="../assets/find.png"> {{item}} </p>
+
+    <button class="btn_clear btn btn-lg btn-primary" (click)="clearHistory()">Очистить историю </button>
+
+</div>

@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+.main_container {
+    width: 90%;
+    /*Устанавливает ширину содержимого элемента*/
+    max-width: 90%;
+    /*Устанавливает максимальную ширину элемента*/
+    margin-left: auto;
+    /*Устанавливает величину отступа от левого края элемента*/
+    margin-right: auto;
+    /*Устанавливает величину отступа от правого края элемента*/
+    padding-left: 38%;
+    /*Устанавливает значение поля от левого края содержимого элемента*/
+    padding-right: 38%;
+    /*Устанавливает значение поля от правого края содержимого элемента*/
+    margin-top: 10%;
+    padding-bottom: 10%;
+}
+
+body {
+    background: transparent;
+}
+
+.ibox-content {
+    background-color: #FFFFFF;
+    color: inherit;
+    padding: 3% 17% 0% 17%;
+    border-color: #3999da;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 0px 0px;
+}
+
+.search-result {
+    margin-top: 3%;
+}
+
+.search-result h3 {
+    margin-bottom: 0;
+    color: #0B5ED7;
+    font-style: bold;
+}
+
+.search-result .search-link {
+    color: #c46060;
+    font-size: 13px;
+}
+
+.search-result p {
+    font-size: 1em;
+    margin-top: 1%;
+}
+
+.hr-line-dashed {
+    border-top: 1px dashed #3999da;
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    height: 1px;
+    margin: 2% 30% 2% 20%;
+}
+
+a {
+    text-decoration: none;
+}
+
+.inform_result {
+    font-family: cursive;
+    font-size: 0.7em;
+    color: rgb(38, 52, 78);
+}
+
+.btn-group {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.paginator {
+    margin: 3% 30% 3% 30%;
+}

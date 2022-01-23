@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu+Condensed');
+.main_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 3% 0% 0% 0%;
+}
+
+div p {
+    margin: 1% 0% 1% 0%;
+}
+
+.btn_clear {
+    margin: 1% 0% 1% 0%;
+}
